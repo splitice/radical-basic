@@ -1,7 +1,7 @@
 <?php
 namespace Radical\Basic\DateTime;
 
-use Model\Database\IToSQL;
+use Radical\Database\IToSQL;
 
 abstract class DateTimeShared extends Timestamp implements IToSQL {
 	const DATABASE_FORMAT = "";
@@ -22,9 +22,5 @@ abstract class DateTimeShared extends Timestamp implements IToSQL {
 	
 	function toSQL() {
 		return $this->toFormat ( static::DATABASE_FORMAT );
-	}
-	
-	function toEscaped(){
-		return \DB::E($this->toSQL());
 	}
 }
