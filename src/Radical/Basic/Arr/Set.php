@@ -30,8 +30,6 @@ class Set {
 	 * @return array the result set 
 	 */
 	public static function selectDistributed($set, $x) {
-		parent::parameterHandle($set);
-	
 		//check params
 		if (! is_int ( $x ) || $x < 1)
 			return false;
