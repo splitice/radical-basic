@@ -20,19 +20,19 @@ class Decimal {
 	}
 	
 	function add($a,$b){
-		return $this->handler->addition($a,b);
+		return $this->handler->addition($a,$b);
 	}
 	function sub($a,$b){
-		return $this->handler->subtract($a,b);
+		return $this->handler->subtract($a,$b);
 	}
 	function mult($a,$b){
-		return $this->handler->multiply($a,b);
+		return $this->handler->multiply($a,$b);
 	}
 	function mul($a,$b){
-		return $this->handler->multiply($a,b);
+		return $this->handler->multiply($a,$b);
 	}
 	function div($a,$b){
-		return $this->handler->divide($a,b);
+		return $this->handler->divide($a,$b);
 	}
 	
 	function __call($method,$args){
