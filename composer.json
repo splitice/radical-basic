@@ -1,17 +1,19 @@
 {
-	"keywords" : [
-		"radical-php"
-	],
-	"autoload" : {
-		"psr-0" : {
-			"Radical" : "src"
-		}
-	},
-	"name" : "splitice/radical-basic",
-	"type" : "library",
-	"description" : "Basic radical-php functionality",
-	"license" : "BSD",
-	"require" : {
-		"php" : ">=5.4"
-	}
+  "name" : "splitice/radical-basic",
+  "description" : "Basic radical-php functionality",
+  "require" : {
+    "php" : ">=5.4"
+  },
+  "repositories" : [ {
+    "type" : "git",
+    "url" : "https://github.com/splitice/radical-basic"
+  } ],
+  "keywords" : [ "radical-php" ],
+  "autoload" : {
+    "psr-0" : {
+      "Radical" : "src"
+    }
+  },
+  "license" : "BSD",
+  "type" : "library"
 }
