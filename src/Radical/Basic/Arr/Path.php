@@ -99,7 +99,8 @@ class Path {
 				$values = array();
 				foreach ($array as $arr)
 				{
-					if ($value = Arr::path($arr, implode('.', $keys)))
+					$value = Arr::path($arr, implode('.', $keys));
+					if ($value)
 					{
 						$values[] = $value;
 					}

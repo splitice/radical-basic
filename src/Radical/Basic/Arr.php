@@ -535,7 +535,7 @@ class Arr {
 		foreach($array as $k=>$v){
 			if(is_callable($callback) && !$strict){
 				if($callback($k,$v)) $ret[$k] = $v;
-			}elseif(($strict && $v === $value) || $v == $value){
+			}elseif(($strict && $v === $callback) || $v == $callback){
 				$ret[$k] = $v;
 			}
 		}

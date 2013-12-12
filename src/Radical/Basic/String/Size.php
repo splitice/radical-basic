@@ -1,7 +1,7 @@
 <?php
 namespace Basic\String;
 
-class Size extends \Core\Object {
+class Size  {
 	function __construct($string,$font){
 		$this->string = $string;
 		$this->font = $font;

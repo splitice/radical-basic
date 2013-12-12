@@ -28,7 +28,7 @@ namespace Basic\String;
 * @changes 1.0.0b2 Fixed a bug where some words would lose capitalization with ::pluralize() and ::singularize() [wb, 2009-01-25]
 * @changes 1.0.0b The initial implementation [wb, 2007-09-25]
 */
-class Grammar extends \Core\Object {
+class Grammar  {
 	/**
 	 * Cache for plural <-> singular and underscore <-> camelcase
 	 *

@@ -1,7 +1,7 @@
 <?php
 namespace Basic\String;
 
-class UrlStub extends \Core\Object {
+class UrlStub  {
 	function __construct($title){
 		$this->title = $title;
 	}

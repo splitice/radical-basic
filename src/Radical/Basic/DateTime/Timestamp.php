@@ -1,9 +1,7 @@
 <?php
 namespace Basic\DateTime;
 
-use Core\StandardObject;
-
-class Timestamp extends StandardObject {
+class Timestamp {
 	protected $timestamp;
 	
 	function __construct($timestamp){

@@ -1,7 +1,7 @@
 <?php
 namespace Basic\String;
 
-class Format extends \Core\Object {
+class Format  {
 	/**
 	 * version of sprintf for cases where named arguments are desired (python syntax)
 	 *

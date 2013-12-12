@@ -7,7 +7,7 @@
 			"Radical" : "src"
 		}
 	},
-	"name" : "SplitIce/radical-basic",
+	"name" : "splitice/radical-basic",
 	"type" : "library",
 	"description" : "Basic radical-php functionality",
 	"license" : "BSD",

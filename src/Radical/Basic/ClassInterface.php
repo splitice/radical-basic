@@ -1,7 +1,7 @@
 <?php
 namespace Basic;
 
-abstract class ClassInterface extends \Core\Object {
+abstract class ClassInterface  {
 	const CLASS_BASE = '';
 	const fieldType = 'const';
 	

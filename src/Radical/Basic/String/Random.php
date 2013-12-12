@@ -33,14 +33,6 @@ class Random {
 				return static::$_source = function($bytes) use (&$fp) {
 					return fread($fp, $bytes);
 				};
-			case class_exists('COM', false):
-				try {
-					$com = new COM('CAPICOM.Utilities.1');
-					return static::$_source = function($bytes) use ($com) {
-						return base64_decode($com->GetRandom($bytes, 0));
-					};
-				} catch (\Exception $e) {
-				}
 			default:
 				return static::$_source = function($bytes) {
 					$rand = '';

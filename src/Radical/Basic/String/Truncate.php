@@ -9,6 +9,7 @@ class Truncate {
 			
 			// TODO: replace this with cleanstring of ctools
 			$regex = '(.*)\b.+';
+			$matches = array();
 			if (function_exists ( 'mb_ereg' )) {
 				mb_regex_encoding ( 'UTF-8' );
 				$found = mb_ereg ( $regex, $value, $matches );

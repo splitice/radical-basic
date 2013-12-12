@@ -18,7 +18,7 @@ namespace Basic;
 * @package Flourish
 * @link http://flourishlib.com/fJSON
 */
-class JSON extends \Core\Object {
+class JSON  {
 	// The following constants allow for nice looking callbacks to static
 	// methods
 	const decode = 'Basic\\JSON::decode';

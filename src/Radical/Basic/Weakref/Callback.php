@@ -1,7 +1,7 @@
 <?php
 namespace Basic\Weakref;
 
-class Callback extends \Core\Object {	
+class Callback  {	
 	private $method;
 	private $failure;
 	

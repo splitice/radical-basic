@@ -1,8 +1,6 @@
 <?php
 namespace Basic\Cryptography;
 
-use Basic\Cryptography\Internal\HashBase;
-
 class Blowfish implements HashTypes\ITwoWayEncryption {
 	const IV = '12345678';
 	

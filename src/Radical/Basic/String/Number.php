@@ -1,7 +1,7 @@
 <?php
 namespace Basic\String;
 
-class Number extends \Core\Object {
+class Number  {
 	static function ordinal($number){
 		$ends = array('th','st','nd','rd','th','th','th','th','th','th');
 		if (($number %100) >= 11 && ($number%100) <= 13)
