@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Cryptography;
+namespace Radical\Basic\Cryptography;
 
-use Basic\Cryptography\Internal\HashBase;
+use Radical\Basic\Cryptography\Internal\HashBase;
 
 class SplitIceEnglishHash extends HashBase implements HashTypes\IOneWayHash {
 	static $romans = array(

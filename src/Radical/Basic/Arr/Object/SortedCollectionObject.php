@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Arr\Object;
+namespace Radical\Basic\Arr\Object;
 
 /**
  * A collection that is always sorted

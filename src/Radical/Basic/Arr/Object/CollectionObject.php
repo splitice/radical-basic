@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Arr\Object;
+namespace Radical\Basic\Arr\Object;
 
-use Basic\Arr;
+use Radical\Basic\Arr;
 
 /**
  * The basis for all objects that are also collections.

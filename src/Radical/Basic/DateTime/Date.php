@@ -1,5 +1,5 @@
 <?php
-namespace Basic\DateTime;
+namespace Radical\Basic\DateTime;
 
 class Date extends DateTimeShared {
 	const DATABASE_FORMAT = "Y-m-d";

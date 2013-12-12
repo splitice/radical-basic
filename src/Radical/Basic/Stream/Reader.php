@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Stream;
+namespace Radical\Basic\Stream;
 
 /**
  * A class providing a StreamReader interface

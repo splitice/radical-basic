@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Validation;
+namespace Radical\Basic\Validation;
 
 interface IValidator {
 	/**

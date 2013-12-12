@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cast;
+namespace Radical\Basic\Cast;
 
 interface ICast {
 	function cast($value);

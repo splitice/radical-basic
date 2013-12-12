@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Cryptography;
-use Basic\Cryptography\Internal\HashBase;
-use Basic\String;
+namespace Radical\Basic\Cryptography;
+use Radical\Basic\Cryptography\Internal\HashBase;
+use Radical\Basic\String;
 
 class Crypt extends HashBase implements HashTypes\IOneWayHash {
 	/**

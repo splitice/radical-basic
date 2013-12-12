@@ -1,6 +1,5 @@
 <?php
-namespace Basic\String;
-use COM;
+namespace Radical\Basic\String;
 
 class UUID {
 	/**

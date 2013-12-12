@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cryptography\HashTypes;
+namespace Radical\Basic\Cryptography\HashTypes;
 
 interface IDecode extends IEncode {
 

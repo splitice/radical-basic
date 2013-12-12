@@ -1,5 +1,5 @@
 <?php
-namespace Basic\DateTime;
+namespace Radical\Basic\DateTime;
 
 use Model\Database\IToSQL;
 

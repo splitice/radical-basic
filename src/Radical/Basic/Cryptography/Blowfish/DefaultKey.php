@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cryptography\Blowfish;
+namespace Radical\Basic\Cryptography\Blowfish;
 /**
  * Default Key for the Blowfish algorithm. These are the hex digits of pi,
  * arranged as the Blowfish default as four S Boxes & one P array

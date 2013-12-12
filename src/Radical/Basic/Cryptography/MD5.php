@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Cryptography;
+namespace Radical\Basic\Cryptography;
 
-use Basic\Cryptography\Internal\HashBase;
+use Radical\Basic\Cryptography\Internal\HashBase;
 
 class MD5 extends HashBase implements HashTypes\IOneWayHash {
 	static function hash($text){

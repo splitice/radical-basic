@@ -1,6 +1,6 @@
 <?php
-namespace Basic\String;
-use Basic\Arr;
+namespace Radical\Basic\String;
+use Radical\Basic\Arr;
 
 class Truncate {
 	static function trim($value, $max_length, $is_html = false) {

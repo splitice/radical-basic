@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Arr;
+namespace Radical\Basic\Arr;
 
 /**
  * Group a set based on the result of a callback function.

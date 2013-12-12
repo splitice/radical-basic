@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Cryptography;
+namespace Radical\Basic\Cryptography;
 
-use Basic\Cryptography\Internal\HashBase;
+use Radical\Basic\Cryptography\Internal\HashBase;
 
 class Raw extends HashBase implements HashTypes\ITwoWayEncryption, HashTypes\IHash {
 	static function hash($text){

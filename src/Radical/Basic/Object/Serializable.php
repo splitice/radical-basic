@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Object;
+namespace Radical\Basic\Object;
 
 class Serializable  {
 	

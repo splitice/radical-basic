@@ -1,5 +1,5 @@
 <?php
-namespace Basic\String;
+namespace Radical\Basic\String;
 
 class Number  {
 	static function ordinal($number){

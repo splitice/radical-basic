@@ -1,5 +1,5 @@
 <?php
-namespace Basic\String;
+namespace Radical\Basic\String;
 
 /**
  * Provides string functions for UTF-8 strings

@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cast\Internal;
+namespace Radical\Basic\Cast\Internal;
 
 abstract class CastBase {
 	

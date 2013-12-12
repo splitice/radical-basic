@@ -1,5 +1,5 @@
 <?php
-namespace Basic;
+namespace Radical\Basic;
 
 class Validate {
 	static function test($what,$validation){

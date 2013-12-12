@@ -1,5 +1,5 @@
 <?php
-namespace Basic\String;
+namespace Radical\Basic\String;
 
 /**
 * Provides english word inflection, notation conversion, grammar helpers and internationlization support

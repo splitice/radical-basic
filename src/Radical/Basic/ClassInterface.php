@@ -1,5 +1,5 @@
 <?php
-namespace Basic;
+namespace Radical\Basic;
 
 abstract class ClassInterface  {
 	const CLASS_BASE = '';

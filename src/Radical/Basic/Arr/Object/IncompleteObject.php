@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Arr\Object;
+namespace Radical\Basic\Arr\Object;
 
 /**
  * An array object that doesnt know what it contains until it is initialized.

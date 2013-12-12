@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Decimal;
+namespace Radical\Basic\Decimal;
 
 class Native {
 	function addition($a,$b){

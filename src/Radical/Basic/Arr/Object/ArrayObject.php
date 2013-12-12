@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Arr\Object;
+namespace Radical\Basic\Arr\Object;
 
 /**
  * Array object. The basis for objects that are also indexed arrays

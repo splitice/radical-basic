@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Weakref;
+namespace Radical\Basic\Weakref;
 
 class Failure  {
 	const NOTHING = null;

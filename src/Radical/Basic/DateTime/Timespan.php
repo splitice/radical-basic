@@ -1,5 +1,5 @@
 <?php
-namespace Basic\DateTime;
+namespace Radical\Basic\DateTime;
 
 class Timespan {
 	protected $seconds;

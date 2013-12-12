@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cryptography\Blowfish;
+namespace Radical\Basic\Cryptography\Blowfish;
 /**
  * Blowfish encryption algorithm
  * Coded directly from Bruce Schneier's C code example available from

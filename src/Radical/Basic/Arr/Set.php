@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Arr;
+namespace Radical\Basic\Arr;
 
 /**
  * Used for complex manipulation, comparison, and access of array data. Some methods allow for

@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Cryptography\Internal;
+namespace Radical\Basic\Cryptography\Internal;
 
 abstract class HashBase {
 	static function encode($text,$key = null){

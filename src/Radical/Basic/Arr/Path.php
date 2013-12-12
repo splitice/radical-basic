@@ -1,7 +1,7 @@
 <?php
-namespace Basic\Arr;
+namespace Radical\Basic\Arr;
 
-use Basic\Arr;
+use Radical\Basic\Arr;
 
 class Path {
 	/**

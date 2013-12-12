@@ -1,5 +1,5 @@
 <?php
-namespace Basic;
+namespace Radical\Basic;
 /**
 * Provides encoding and decoding for JSON
 *

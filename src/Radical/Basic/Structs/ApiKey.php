@@ -1,5 +1,5 @@
 <?php
-namespace Basic\Structs;
+namespace Radical\Basic\Structs;
 
 class ApiKey implements ILoginDetails {
 	/**
