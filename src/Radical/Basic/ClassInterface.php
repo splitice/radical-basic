@@ -29,6 +29,6 @@ abstract class ClassInterface  {
 		}
 	}
 	static function getAll(){
-		return \Core\Libraries::get(static::CLASS_BASE.'\\*');
+		return \Radical\Core\Libraries::get(static::CLASS_BASE.'\\*');
 	}
 }

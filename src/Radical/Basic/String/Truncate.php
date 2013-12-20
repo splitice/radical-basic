@@ -1,5 +1,6 @@
 <?php
 namespace Radical\Basic\String;
+
 use Radical\Basic\Arr;
 
 class Truncate {
