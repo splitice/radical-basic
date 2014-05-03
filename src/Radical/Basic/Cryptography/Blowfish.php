@@ -3,8 +3,14 @@ namespace Radical\Basic\Cryptography;
 
 class Blowfish implements HashTypes\ITwoWayEncryption {
 	const IV = '12345678';
-	
-	static function encode($cleartext, $key = null, $iv = self::IV){
+
+    /**
+     * @param string $cleartext
+     * @param null|string $key
+     * @param string $iv
+     * @return string
+     */
+    static function encode($cleartext, $key = null, $iv = self::IV){
 		if(extension_loaded('mcrypt')){
 			$cipher = mcrypt_module_open(MCRYPT_BLOWFISH, '', MCRYPT_MODE_CBC, '');
 			
@@ -23,7 +29,14 @@ class Blowfish implements HashTypes\ITwoWayEncryption {
 			return $b->encrypt($cleartext, $key, Blowfish\Native::BLOWFISH_MODE_CBC, Blowfish\Native::BLOWFISH_PADDING_RFC,$iv);
 		}
 	}
-	public static function decode($text, $key = null, $iv = self::IV){
+
+    /**
+     * @param string $text
+     * @param string $key
+     * @param string $iv
+     * @return string
+     */
+    public static function decode($text, $key = null, $iv = self::IV){
 		if(extension_loaded('mcrypt')){
 			$cipher = mcrypt_module_open(MCRYPT_BLOWFISH, '', MCRYPT_MODE_CBC, '');
 			
