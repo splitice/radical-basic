@@ -416,12 +416,12 @@ null| # Null
 	 * @return string The JSON string that is equivalent to the PHP value
 	 *        
 	 */
-	static public function encode($value) {
+	static public function encode($value, $force_userspace = false) {
 		if (is_resource ( $value )) {
 			return 'null';
 		}
 		
-		if (function_exists ( 'json_encode' )) {
+		if (!$force_userspace && function_exists ( 'json_encode' )) {
 			
 			$is_scalar = (! is_object ( $value ) && ! is_array ( $value ));
 			$has_json_serializable = interface_exists ( 'JSONSerializable' );
@@ -435,7 +435,7 @@ null| # Null
 				//
 				return json_encode ( $value );
 			}
-			
+
 			if (is_object ( $value ) && $value instanceof \JSONSerializable) {
 				$value = $value->jsonSerialize ();
 			}
