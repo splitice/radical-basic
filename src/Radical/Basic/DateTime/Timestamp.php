@@ -18,6 +18,9 @@ class Timestamp {
 	function toFormat($format){
 		return date($format,$this->timestamp);
 	}
+    function getTimestamp(){
+        return $this->timestamp;
+    }
 	function toAgo($ago=true)
 	{
 		$periods = array("second", "minute", "hour", "day", "week", "month", "year", "decade");
