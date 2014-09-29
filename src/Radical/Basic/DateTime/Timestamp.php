@@ -21,7 +21,11 @@ class Timestamp {
     function getTimestamp(){
         return $this->timestamp;
     }
-	function toAgo($ago=true)
+	function timespan(Timestamp $other){
+        $other_ts = $other->getTimestamp();
+        return new Timespan($this->getTimestamp()-$other_ts);
+    }
+    function toAgo($ago=true)
 	{
 		$periods = array("second", "minute", "hour", "day", "week", "month", "year", "decade");
 		$lengths = array("60","60","24","7","4.35","12","10");
