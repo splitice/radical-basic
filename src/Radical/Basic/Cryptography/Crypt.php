@@ -1,7 +1,7 @@
 <?php
 namespace Radical\Basic\Cryptography;
 use Radical\Basic\Cryptography\Internal\HashBase;
-use Radical\Basic\String;
+use Radical\Basic\StringHelper;
 
 class Crypt extends HashBase implements HashTypes\IOneWayHash {
 	/**
@@ -166,7 +166,7 @@ class Crypt extends HashBase implements HashTypes\IOneWayHash {
 		$base64 = './ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 		$i = 0;
 
-		$input = String\Random::GenerateBytes(16);
+		$input = StringHelper\Random::GenerateBytes(16);
 		$output = '';
 
 		do {
@@ -209,7 +209,7 @@ class Crypt extends HashBase implements HashTypes\IOneWayHash {
 
 		$output = '_' . $base64[$count & 0x3f] . $base64[($count >> 6) & 0x3f];
 		$output .= $base64[($count >> 12) & 0x3f] . $base64[($count >> 18) & 0x3f];
-		$output .= String\Random::GenerateBase64(3);
+		$output .= StringHelper\Random::GenerateBase64(3);
 
 		return $output;
 	}
@@ -220,6 +220,6 @@ class Crypt extends HashBase implements HashTypes\IOneWayHash {
 	 * @return string The MD5 salt.
 	 */
 	protected static function _genSaltMD5() {
-		return '$1$' . String\Random::GenerateBase64(6);
+		return '$1$' . StringHelper\Random::GenerateBase64(6);
 	}
 }

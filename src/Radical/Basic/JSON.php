@@ -463,7 +463,7 @@ null| # Null
 				return 'null';
 			}
 			
-			$char_array = String\UTF8::explode ( $value );
+			$char_array = StringHelper\UTF8::explode ( $value );
 			
 			$output = '"';
 			foreach ( $char_array as $char ) {
@@ -474,7 +474,7 @@ null| # Null
 					$output .= $char;
 				
 				} else {
-					$output .= '\u' . substr ( strtolower ( String\UTF8::ord ( $char ) ), 2 );
+					$output .= '\u' . substr ( strtolower ( StringHelper\UTF8::ord ( $char ) ), 2 );
 				}
 			}
 			$output .= '"';
@@ -602,7 +602,7 @@ null| # Null
 	 *        
 	 */
 	static private function makeUnicodeCodePoint($match) {
-		return String\UTF8::chr ( "U+" . $match [1] );
+		return StringHelper\UTF8::chr ( "U+" . $match [1] );
 	}
 	
 	/**
