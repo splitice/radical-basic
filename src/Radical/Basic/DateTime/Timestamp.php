@@ -16,7 +16,7 @@ class Timestamp {
 		return new static($ts);
 	}
 	function toFormat($format){
-		return date($format,$this->timestamp);
+		return gmdate($format,$this->timestamp);
 	}
     function getTimestamp(){
         return $this->timestamp;
