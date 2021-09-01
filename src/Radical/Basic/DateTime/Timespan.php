@@ -8,6 +8,14 @@ class Timespan {
 		$this->seconds = $seconds;
 	}
 
+    /**
+     * @return mixed
+     */
+    public function getSeconds()
+    {
+        return $this->seconds;
+    }
+
     function toHuman(){
         $secs = $this->seconds;
         $units = array(

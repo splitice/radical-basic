@@ -54,11 +54,11 @@ class SplitIceEnglishHash extends HashBase implements HashTypes\IOneWayHash {
 			$pos = 0;
 	
 			foreach ($class::$romans as $key => $value) {
-				if(!isset($roman{$pos})){
+				if(!isset($roman[$pos])){
 					break;
 				}
 				$kl = strlen($key);
-				while (isset($roman{$pos+$kl-1}) && 0 === substr_compare($roman, $key, $pos, $kl)) {
+				while (isset($roman[$pos+$kl-1]) && 0 === substr_compare($roman, $key, $pos, $kl)) {
 					$result += $value;
 					$pos += $kl;
 				}

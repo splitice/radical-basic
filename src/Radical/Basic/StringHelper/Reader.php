@@ -54,7 +54,7 @@ class Reader {
 					}
 					return $s;
 				}
-				$s .= $char{0};
+				$s .= $char[0];
 			}
 		}
 		return '';
